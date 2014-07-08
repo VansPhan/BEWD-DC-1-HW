@@ -1,0 +1,16 @@
+<h1>Hummingbird</h1>
+<%= form_for :anime do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+ 
+  <p>
+    <%= f.label :rating %><br>
+    <%= f.text_field :rating %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
